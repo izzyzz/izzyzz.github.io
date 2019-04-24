@@ -13,7 +13,6 @@ html {
     margin: 0;
 }
 
-
 .holder {
     overflow: auto;
     height: 100%;
@@ -438,10 +437,14 @@ h2 {
         font-size: 2em;
     }
 
+    .holder {
+        overflow: none;
+    }
+
     .items {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(20, auto);
+        grid-template-rows: repeat(19, auto);
         margin-left: 10%;
         margin-right: 5%;
         text-align: left;
@@ -452,77 +455,77 @@ h2 {
     }
 
     .app {
-        grid-row: 1;
+        grid-row: 1 / 2;
     }
 
     .app1 {
-        grid-row: 2;
+        grid-row: 2 / 3;
 
     }
 
     .app2 {
-        grid-row: 3;
+        grid-row: 3 / 4;
 
     }
 
     .app3 {
-        grid-row: 4;
+        grid-row: 4 / 5;
 
     }
 
     .app4 {
-        grid-row: 5;
+        grid-row: 5 / 6;
 
     }
 
     .app5 {
-        grid-row: 6;
+        grid-row: 6 / 7;
 
     }
 
     .app6 {
-        grid-row: 7;
+        grid-row: 7 / 8;
 
     }
 
     .app7 {
-        grid-row: 8;
+        grid-row: 8 / 9;
         grid-column: 1;
         margin-top: 0;
 
     }
 
     .app8 {
-        grid-row: 9;
+        grid-row: 9 / 10;
         grid-column: 1;
 
     }
 
     .app9 {
-        grid-row: 10;
+        grid-row: 10 / 11;
         grid-column: 1;
 
     }
 
     .app10 {
-        grid-row: 11;
+        grid-row: 11 / 12;
         grid-column: 1;
 
     }
 
     .app11 {
-        grid-row: 12;
+        grid-row: 12 / 13;
         grid-column: 1;
     }
 
     .app12 {
-        grid-row: 13;
+        grid-row: 13 / 14;
         grid-column: 1;
     }
 
     .pho {
         grid-column: 1;
-        grid-row: 14;
+        grid-row: 14 / 15;
         margin-left: 0;
     }
 
@@ -559,7 +562,7 @@ h2 {
     }
 
 
-    .combos {
+    .combo1 {
         justify-content: flex-start;
         align-self: start;
         grid-column: 1;
@@ -568,6 +571,22 @@ h2 {
         margin-left: 0;
         border-style: dotted;
     }
+
+    .combo2 {
+        grid-column: 1;
+        grid-row: 17;
+    }
+
+    .combo3 {
+        grid-column: 1;
+        grid-row: 18;
+    }
+
+    .combo4 {
+        grid-column: 1;
+        grid-row: 19;
+    }
+
 
     .entree-items {
         display: grid;
