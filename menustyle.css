@@ -440,15 +440,14 @@ h2 {
 
     .holder {
         overflow: none;
-        margin-right: 15%;
     }
 
     .items {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(15, auto) repeat(35, 0.1fr);
+        grid-template-rows: repeat(15, 0.1fr) repeat(35, 0.1fr);
         margin-left: 10%;
-        margin-right: 5%;
+        margin-right: 10%;
         text-align: left;
         align-items: start;
         margin-top: 10%;
@@ -591,8 +590,9 @@ h2 {
     .entree-items {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.1fr repeat(20, 0.1fr);
+        grid-template-rows: 0.1fr repeat(26, 0.1fr);
         margin-left: 10%;
+        margin-right: 10%;
     }
 
     .ent-desc {
