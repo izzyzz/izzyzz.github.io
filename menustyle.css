@@ -421,7 +421,8 @@ h2 {
     margin-left: 1%;
     padding: 5%;
     text-align: right;
-    width: 50%;
+    width: 55%;
+    align-content: center;
 }
 
 @media only screen and (max-width: 769px) {
@@ -444,13 +445,12 @@ h2 {
     .items {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(19, auto);
+        grid-template-rows: repeat(15, auto) repeat(40, 0.1fr);
         margin-left: 10%;
         margin-right: 5%;
         text-align: left;
         align-items: start;
         margin-top: 10%;
-        border-style: dashed;
         max-height: none;
     }
 
@@ -569,7 +569,6 @@ h2 {
         grid-row: 16;
         margin-top: 0%;
         margin-left: 0;
-        border-style: dotted;
     }
 
     .combo2 {
@@ -591,7 +590,7 @@ h2 {
     .entree-items {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 0.5 repeat(8, 1fr);
+        grid-template-rows: 1fr repeat(27, 0.1fr);
         margin-left: 10%;
     }
 
@@ -604,7 +603,7 @@ h2 {
     .entrees {
         grid-column: 1;
         grid-row: 1;
-        margin-top: 80%;
+        margin-top: 40%;
     }
 
     .grill1 {
@@ -632,30 +631,24 @@ h2 {
         margin-top: 0;
     }
 
-    .grill5 {
-        grid-row: 7;
-        grid-column: 1;
-        font-weight: bold;
-    }
 
     .entree2 {
         grid-column: 1;
-        grid-row: 8;
+        grid-row: 7;
         align-self: end;
         margin: 0;
-        margin-top: 0px;
         margin-left: 0%;
     }
 
     .ent-desc2 {
-        grid-row: 9 / span 1;
+        grid-row: 8 / span 1;
         grid-column: 1;
         align-self: start;
         margin-left: 0%;
     }
 
     .stir-options {
-        grid-row: 10;
+        grid-row: 9;
         grid-column: 1;
         display: grid;
         grid-template-columns: 0.5fr 0.5fr;
@@ -688,7 +681,7 @@ h2 {
 
     .stir1 {
         font-weight: bold;
-        grid-row: 12;
+        grid-row: 10;
         grid-column: 1;
         margin-left: 0%;
     }
@@ -696,7 +689,7 @@ h2 {
     .stir2 {
         grid-column: 1;
         font-weight: bold;
-        grid-row: 13;
+        grid-row: 11;
         margin-left: 0%;
     }
 
@@ -704,28 +697,27 @@ h2 {
         grid-column: 1;
         font-weight: bold;
         margin-left: 0%;
-        grid-row: 14;
+        grid-row: 12;
     }
 
     .stir4 {
         grid-column: 1;
         font-weight: bold;
         margin-left: 0%;
-        grid-row: 15;
+        grid-row: 13;
     }
 
     .spec-items {
-        margin-top: 250px;
         margin-left: 10%;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(11, 0.3fr);
+        grid-template-rows: 0.1fr repeat(7, 0.3fr);
         grid-gap: 0;
         margin-right: 10%;
     }
 
     .specialty {
-        grid-row: 1;
+        grid-row: 1 / 2;
         margin-top: 40%;
     }
 
